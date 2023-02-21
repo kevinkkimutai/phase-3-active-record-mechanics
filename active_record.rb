@@ -14,6 +14,8 @@ sql = <<-SQL
     name TEXT
   )
 SQL
+
+
 ActiveRecord::Base.connection.execute(sql)
 
 # Log SQL output to the terminal
